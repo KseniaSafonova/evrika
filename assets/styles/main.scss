@@ -1,0 +1,302 @@
+$blue: #098FCF;
+$gray: #F9F9F9;
+
+body {
+    width: 1440px;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    height: 78px;
+
+    .header__logo {
+        margin-left: 160px;
+        margin-top: 8px;
+        height: 44.6875px;
+        width: 220px;
+    }
+
+    .header__phoneNumber {
+        margin-left: 327px;
+        margin-top: 28px;
+        width: 187px;
+
+        a {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            text-decoration: none;
+            color: black;
+
+            div {
+                margin-top: -26px;
+                margin-left: 32px;
+            }
+        }
+    }
+
+    .header__buttons {
+
+        margin-left: 35px;
+        display: flex;
+        margin-top: 16px;
+
+        .header__writeUs,
+        .header__personal {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Montserrat';
+            font-style: normal;
+            height: 46px;
+            width: 176px;
+            color: #ffff;
+            background-color: $blue;
+            border: none;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 16px;
+
+            div {
+                margin-left: 13px;
+            }
+        }
+    }
+
+
+}
+
+.nav {
+    height: 60px;
+    background-color: $gray;
+    display: flex;
+    align-items: center;
+
+    a {
+        margin-left: 40px;
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 18px;
+        display: flex;
+
+        &:nth-child(1) {
+            margin-left: 158px;
+        }
+
+        img {
+            margin-left: 10px;
+        }
+    }
+
+}
+
+.main__delivery {
+    height: 596px;
+
+    h1 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
+        margin-top: 90px;
+        margin-left: 160px;
+    }
+
+    form {
+        margin-top: 48px;
+        margin-left: 160px;
+        width: 1120px;
+        height: 289px;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+
+        .main__order {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            padding-top: 49px;
+            margin-left: 96px;
+
+            span {
+                color: $blue;
+            }
+        }
+
+        .main__form {
+            display: flex;
+            margin-left: 82px;
+            margin-top: 30px;
+
+            div {
+                margin-left: 14px;
+
+                label {
+                    font-size: 12px;
+                    font-weight: 500;
+                    line-height: 15px;
+                    margin-left: -15px;
+                }
+
+                input {
+                    height: 46px;
+                    width: 273px;
+                    text-indent: 15px;
+                    border: 1px solid #D4D4D4;
+                    margin-top: 8px;
+                }
+            }
+
+            button {
+                background-color: $blue;
+                border: none;
+                height: 52px;
+                width: 258px;
+                margin-left: 14px;
+                margin-top: 25px;
+            }
+        }
+
+        .main__agreement {
+            margin-left: 96px;
+            margin-top: 30px;
+            display: flex;
+
+            .main__checkbox {
+                height: 24px;
+                width: 24px;
+                border: 1px solid #D4D4D4;
+            }
+
+            span {
+                margin-left: 16px;
+                margin-top: 5px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+    }
+}
+
+.main__prices {
+    height: 1009px;
+}
+
+.fuelDelivery {
+    height: 666px;
+    background-color: $gray;
+    margin-top: 34px;
+
+    h2 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        margin-left: 159px;
+        padding-top: 74px;
+    }
+
+    .fuelDelivery__content {
+        display: flex;
+
+        .fuelDelivery__contentLeft {
+            margin-left: 159px;
+
+            &-label {
+                margin-top: 16px;
+
+                label {
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 15px;
+                }
+            }
+
+            input {
+                height: 46px;
+                width: 409px;
+                border: 1px solid #D4D4D4;
+                font-weight: 500;
+                font-size: 12px;
+                text-indent: 15px;
+                margin-top: 8px;
+            }
+        }
+
+        .fuelDelivery__contentRight {
+            height: 441px;
+            width: 638px;
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+            margin-left: 71px;
+            margin-top: 43px;
+            padding-top: 40px;
+            padding-left: 40px;
+            background-color: #FFFFFF;
+
+            &-section {
+                display: flex;
+                justify-content: space-between;
+                width: 558px;
+                border-top: 1px solid #E7E7E7;
+                padding-top: 16px;
+                padding-bottom: 16px;
+            }
+
+            &-title {
+                font-weight: 400;
+                font-size: 16px;
+            }
+
+            &-description {
+                width: 346px;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 15px;
+                margin-top: 10px;
+            }
+
+            span {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+            }
+
+            button {
+                background-color: $blue;
+                height: 46px;
+                width: 258px;
+                border: none;
+                color: #FFFFFF;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 16px;
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+.main__weWorks {
+    height: 766px;
+    margin-left: 160px;
+
+    .main__weWorks-content {
+        display: flex;
+        margin-left: -31px;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    &-section {
+        height: 394px;
+        width: 353px;
+        background-color: #043C77;
+        margin-top: 48px;
+        margin-left: 31px;
+    }
+}

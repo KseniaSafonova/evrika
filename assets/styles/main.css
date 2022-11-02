@@ -1,0 +1,327 @@
+body {
+  width: 1440px;
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 78px;
+}
+
+.header .header__logo {
+  margin-left: 160px;
+  margin-top: 8px;
+  height: 44.6875px;
+  width: 220px;
+}
+
+.header .header__phoneNumber {
+  margin-left: 327px;
+  margin-top: 28px;
+  width: 187px;
+}
+
+.header .header__phoneNumber a {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: black;
+}
+
+.header .header__phoneNumber a div {
+  margin-top: -26px;
+  margin-left: 32px;
+}
+
+.header .header__buttons {
+  margin-left: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 16px;
+}
+
+.header .header__buttons .header__writeUs,
+.header .header__buttons .header__personal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  height: 46px;
+  width: 176px;
+  color: #ffff;
+  background-color: #098FCF;
+  border: none;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.header .header__buttons .header__writeUs div,
+.header .header__buttons .header__personal div {
+  margin-left: 13px;
+}
+
+.nav {
+  height: 60px;
+  background-color: #F9F9F9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav a:nth-child(1) {
+  margin-left: 158px;
+}
+
+.nav a img {
+  margin-left: 10px;
+}
+
+.main__delivery {
+  height: 596px;
+}
+
+.main__delivery h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  margin-top: 90px;
+  margin-left: 160px;
+}
+
+.main__delivery form {
+  margin-top: 48px;
+  margin-left: 160px;
+  width: 1120px;
+  height: 289px;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.main__delivery form .main__order {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  padding-top: 49px;
+  margin-left: 96px;
+}
+
+.main__delivery form .main__order span {
+  color: #098FCF;
+}
+
+.main__delivery form .main__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 82px;
+  margin-top: 30px;
+}
+
+.main__delivery form .main__form div {
+  margin-left: 14px;
+}
+
+.main__delivery form .main__form div label {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: -15px;
+}
+
+.main__delivery form .main__form div input {
+  height: 46px;
+  width: 273px;
+  text-indent: 15px;
+  border: 1px solid #D4D4D4;
+  margin-top: 8px;
+}
+
+.main__delivery form .main__form button {
+  background-color: #098FCF;
+  border: none;
+  height: 52px;
+  width: 258px;
+  margin-left: 14px;
+  margin-top: 25px;
+}
+
+.main__delivery form .main__agreement {
+  margin-left: 96px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__delivery form .main__agreement .main__checkbox {
+  height: 24px;
+  width: 24px;
+  border: 1px solid #D4D4D4;
+}
+
+.main__delivery form .main__agreement span {
+  margin-left: 16px;
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.main__prices {
+  height: 1009px;
+}
+
+.fuelDelivery {
+  height: 666px;
+  background-color: #F9F9F9;
+  margin-top: 34px;
+}
+
+.fuelDelivery h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  margin-left: 159px;
+  padding-top: 74px;
+}
+
+.fuelDelivery .fuelDelivery__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fuelDelivery .fuelDelivery__content .fuelDelivery__contentLeft {
+  margin-left: 159px;
+}
+
+.fuelDelivery .fuelDelivery__content .fuelDelivery__contentLeft-label {
+  margin-top: 16px;
+}
+
+.fuelDelivery .fuelDelivery__content .fuelDelivery__contentLeft-label label {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.fuelDelivery .fuelDelivery__content .fuelDelivery__contentLeft input {
+  height: 46px;
+  width: 409px;
+  border: 1px solid #D4D4D4;
+  font-weight: 500;
+  font-size: 12px;
+  text-indent: 15px;
+  margin-top: 8px;
+}
+
+.fuelDelivery .fuelDelivery__content .fuelDelivery__contentRight {
+  height: 441px;
+  width: 638px;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+  margin-left: 71px;
+  margin-top: 43px;
+  padding-top: 40px;
+  padding-left: 40px;
+  background-color: #FFFFFF;
+}
+
+.fuelDelivery .fuelDelivery__content .fuelDelivery__contentRight-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 558px;
+  border-top: 1px solid #E7E7E7;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.fuelDelivery .fuelDelivery__content .fuelDelivery__contentRight-title {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.fuelDelivery .fuelDelivery__content .fuelDelivery__contentRight-description {
+  width: 346px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-top: 10px;
+}
+
+.fuelDelivery .fuelDelivery__content .fuelDelivery__contentRight span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.fuelDelivery .fuelDelivery__content .fuelDelivery__contentRight button {
+  background-color: #098FCF;
+  height: 46px;
+  width: 258px;
+  border: none;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 25px;
+}
+
+.main__weWorks {
+  height: 766px;
+  margin-left: 160px;
+}
+
+.main__weWorks .main__weWorks-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -31px;
+}
+
+.main__weWorks h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.main__weWorks-section {
+  height: 394px;
+  width: 353px;
+  background-color: #043C77;
+  margin-top: 48px;
+  margin-left: 31px;
+}
+/*# sourceMappingURL=main.css.map */
