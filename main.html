@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./assets/styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>ПРОЦЕССИНГ24</title>
 </head>
@@ -69,10 +71,108 @@
         </section>
         <section class="main__prices">
             <h2>Стоимость топлива</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Сорт топлива</th>
+                        <th scope="col">Экологический класс</th>
+                        <th scope="col">Производитель</th>
+                        <th scope="col">Наличный расчет</th>
+                        <th scope="col">Безналичный расчет</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th></th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th rowspan="5" class="blueColumn">ДТ</th>
+                        <td rowspan="3" class="fuelClass">ЕВРО-5</td>
+                        <td>Газпромнефть</td>
+                        <td>45.43 р.</td>
+                        <td class="calculation">45.43 р.</td>
+                    </tr>
+                    <tr>
+                        <td>Лукойл</td>
+                        <td>45.16 р.</td>
+                        <td class="calculation">43.98 р.</td>
+                    </tr>
+                    <tr>
+                        <td>Роснефть</td>
+                        <td>42.34 р.</td>
+                        <td class="calculation">41.64 р.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="fuelClass">ЕВРО-4</td>
+                        <td>Газпромнефть</td>
+                        <td>-</td>
+                        <td class="calculation">-</td>
+                    </tr>
+                    <tr>
+                        <td>Лукойл</td>
+                        <td>41.16 р.</td>
+                        <td class="calculation">40.67 р.</td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th rowspan="9" class="blueColumn">АИ-95</th>
+                        <td rowspan="3" class="fuelClass">ЕВРО-5</td>
+                        <td>Газпромнефть</td>
+                        <td>45.43 р.</td>
+                        <td class="calculation">45.43 р.</td>
+                    </tr>
+                    <tr>
+                        <td>Роснефть</td>
+                        <td>42.34 р.</td>
+                        <td class="calculation">41.64 р.</td>
+                    </tr>
+                    <tr>
+                        <td>Лукойл</td>
+                        <td>45.16 р.</td>
+                        <td class="calculation">43.98 р.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="fuelClass">ЕВРО-4</td>
+                        <td>Лукойл</td>
+                        <td>41.16 р.</td>
+                        <td class="calculation">40.67 р.</td>
+                    </tr>
+                    <tr>
+                        <td>Газпромнефть</td>
+                        <td>-</td>
+                        <td class="calculation">-</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" class="fuelClass">ЕВРО-3</td>
+                        <td>Роснефть</td>
+                        <td>42.34 р.</td>
+                        <td class="calculation">41.64 р.</td>
+                    </tr>
+                    <tr>
+                        <td>Газпромнефть</td>
+                        <td>-</td>
+                        <td class="calculation">-</td>
+                    </tr>
+                    <tr>
+                        <td>Лукойл</td>
+                        <td>45.16 р.</td>
+                        <td class="calculation">43.98 р.</td>
+                    </tr>
+            </table>
         </section>
         <section class="main__fuelDelivery">
             <h2>Топливо с доставкой</h2>
-            <div class="fuelDelivery__content">
+            <div class="main__fuelDelivery-content">
                 <div class="fuelDelivery__contentLeft">
                     <div>
                         <div class="fuelDelivery__contentLeft-label"><label for="">Вид топлива</label></div>

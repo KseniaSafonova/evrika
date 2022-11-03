@@ -105,15 +105,19 @@ body {
 }
 
 .main__delivery {
-  height: 596px;
+  height: 586px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .main__delivery h1 {
   font-size: 48px;
   font-weight: 700;
   line-height: 59px;
-  margin-top: 90px;
+  padding-top: 90px;
   margin-left: 160px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .main__delivery form {
@@ -199,10 +203,71 @@ body {
   height: 1009px;
 }
 
+.main__prices h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  margin-left: 160px;
+}
+
+.main__prices table {
+  width: 80%;
+  margin-left: 160px;
+  margin-top: 48px;
+  width: 1120px;
+}
+
+.main__prices table thead {
+  background-color: #043C77;
+  color: #FFFFFF;
+  height: 56px;
+}
+
+.main__prices table thead th {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  padding-bottom: 21px;
+  padding-left: 20px;
+}
+
+.main__prices table tbody {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.main__prices table tbody .blueColumn {
+  background-color: #098FCF;
+  width: 163px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  padding-top: 16px;
+  padding-left: 20px;
+}
+
+.main__prices table tbody td {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 30px;
+}
+
+.main__prices table tbody .fuelClass {
+  width: 286px;
+  border-right: 1px solid lightgray;
+}
+
+.main__prices table tbody .calculation {
+  border-right: 1px solid lightgray;
+}
+
 .main__fuelDelivery {
   height: 666px;
   background-color: #F9F9F9;
-  margin-top: 34px;
+  margin-top: 0px;
 }
 
 .main__fuelDelivery h2 {
@@ -211,29 +276,31 @@ body {
   line-height: 44px;
   margin-left: 159px;
   padding-top: 74px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
-.main__fuelDelivery .fuelDelivery__content {
+.main__fuelDelivery-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.main__fuelDelivery .fuelDelivery__content .fuelDelivery__contentLeft {
+.main__fuelDelivery-content .fuelDelivery__contentLeft {
   margin-left: 159px;
 }
 
-.main__fuelDelivery .fuelDelivery__content .fuelDelivery__contentLeft-label {
+.main__fuelDelivery-content .fuelDelivery__contentLeft-label {
   margin-top: 16px;
 }
 
-.main__fuelDelivery .fuelDelivery__content .fuelDelivery__contentLeft-label label {
+.main__fuelDelivery-content .fuelDelivery__contentLeft-label label {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
 }
 
-.main__fuelDelivery .fuelDelivery__content .fuelDelivery__contentLeft input {
+.main__fuelDelivery-content .fuelDelivery__contentLeft input {
   height: 46px;
   width: 409px;
   border: 1px solid #D4D4D4;
@@ -243,19 +310,21 @@ body {
   margin-top: 8px;
 }
 
-.main__fuelDelivery .fuelDelivery__content .fuelDelivery__contentRight {
+.main__fuelDelivery-content .fuelDelivery__contentRight {
   height: 441px;
   width: 638px;
   -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
   margin-left: 71px;
-  margin-top: 43px;
+  margin-top: 34px;
   padding-top: 40px;
   padding-left: 40px;
   background-color: #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.main__fuelDelivery .fuelDelivery__content .fuelDelivery__contentRight-section {
+.main__fuelDelivery-content .fuelDelivery__contentRight-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -268,12 +337,12 @@ body {
   padding-bottom: 16px;
 }
 
-.main__fuelDelivery .fuelDelivery__content .fuelDelivery__contentRight-title {
+.main__fuelDelivery-content .fuelDelivery__contentRight-title {
   font-weight: 400;
   font-size: 16px;
 }
 
-.main__fuelDelivery .fuelDelivery__content .fuelDelivery__contentRight-description {
+.main__fuelDelivery-content .fuelDelivery__contentRight-description {
   width: 346px;
   font-size: 12px;
   font-weight: 400;
@@ -281,13 +350,13 @@ body {
   margin-top: 10px;
 }
 
-.main__fuelDelivery .fuelDelivery__content .fuelDelivery__contentRight span {
+.main__fuelDelivery-content .fuelDelivery__contentRight span {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
 }
 
-.main__fuelDelivery .fuelDelivery__content .fuelDelivery__contentRight button {
+.main__fuelDelivery-content .fuelDelivery__contentRight button {
   background-color: #098FCF;
   height: 46px;
   width: 258px;
@@ -300,7 +369,7 @@ body {
 }
 
 .main__weWorks {
-  height: 766px;
+  height: 686px;
   margin-left: 160px;
   color: #FFFFFF;
 }
