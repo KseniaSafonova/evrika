@@ -523,4 +523,165 @@ body {
   height: 8px;
   width: 8px;
 }
+
+.main__reviews {
+  height: 722px;
+  background-color: #F9F9F9;
+}
+
+.main__reviews h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  margin-left: 159px;
+  padding-top: 86px;
+}
+
+.main__reviews-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 130px;
+}
+
+.main__reviews-card {
+  height: 368px;
+  width: 545px;
+  background-color: #FFFFFF;
+  margin-left: 30px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main__reviews-card p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  color: #565656;
+  width: 246px;
+}
+
+.main__reviews-card p:first-child {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  color: black;
+  margin: 0px;
+}
+
+.main__reviews-card span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 465px;
+  margin-top: 40px;
+  display: block;
+}
+
+.main__reviews-card div {
+  border: 1px solid red;
+}
+
+.main__reviews-card a {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-decoration: none;
+  color: #098FCF;
+}
+
+.main__reviews-readAll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 44px;
+}
+
+.main__reviews-readAll button {
+  background-color: #098FCF;
+  color: #FFFFFF;
+  height: 46px;
+  width: 258px;
+  border: none;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.main__questions {
+  height: 383px;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  background-color: #043C77;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__questions h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.main__questions .main__questions-inputs {
+  margin-top: 30px;
+  width: 1000px;
+}
+
+.main__questions div {
+  width: 555px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.main__questions input {
+  width: 272px;
+  height: 42px;
+  text-indent: 12px;
+  margin-left: 30px;
+}
+
+.main__questions button {
+  background-color: #098FCF;
+  color: #FFFFFF;
+  height: 46px;
+  width: 258px;
+  border: none;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: 30px;
+}
+
+.main__questions span {
+  width: 1000px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 15px;
+}
+
+.main__questions span a {
+  color: #FFFFFF;
+}
+
+.footer {
+  height: 308px;
+}
 /*# sourceMappingURL=main.css.map */
