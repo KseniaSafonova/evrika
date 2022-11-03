@@ -302,6 +302,7 @@ body {
 .main__weWorks {
   height: 766px;
   margin-left: 160px;
+  color: #FFFFFF;
 }
 
 .main__weWorks .main__weWorks-content {
@@ -323,5 +324,42 @@ body {
   background-color: #043C77;
   margin-top: 48px;
   margin-left: 31px;
+}
+
+.main__weWorks-sectionTopBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.main__weWorks-sectionBottomBlock {
+  width: 283px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.main__weWorks-sectionBottomBlock p {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.main__weWorks-sectionBottomBlock span {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.main__weWorks-sectionBottomBlock p:nth-child(3) {
+  font-size: 12px;
+  line-height: 16.8px;
 }
 /*# sourceMappingURL=main.css.map */
