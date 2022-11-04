@@ -310,6 +310,33 @@ body {
   margin-top: 8px;
 }
 
+.main__fuelDelivery-content .fuelDelivery__contentLeft-slidecontainer {
+  margin-top: -17px;
+}
+
+.main__fuelDelivery-content .fuelDelivery__contentLeft .fuelDelivery__contentLeft-inputSlider {
+  height: 1px;
+}
+
+.main__fuelDelivery-content .fuelDelivery__contentLeft-fuelType, .main__fuelDelivery-content .fuelDelivery__contentLeft-fuelVolume {
+  border: 1px solid #D4D4D4;
+  background-color: #FFFFFF;
+  height: 46px;
+  width: 409px;
+  margin-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
 .main__fuelDelivery-content .fuelDelivery__contentRight {
   height: 441px;
   width: 638px;
@@ -650,16 +677,19 @@ body {
   display: block;
 }
 
-.main__reviews-card div {
-  border: 1px solid red;
-}
-
-.main__reviews-card a {
+.main__reviews-card div a {
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
   text-decoration: none;
   color: #098FCF;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.main__reviews-cardLink {
+  display: inline-block;
+  margin-top: 37px;
 }
 
 .main__reviews-readAll {

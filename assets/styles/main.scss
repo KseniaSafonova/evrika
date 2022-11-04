@@ -289,6 +289,28 @@ body {
                 text-indent: 15px;
                 margin-top: 8px;
             }
+
+            &-slidecontainer {
+                margin-top: -17px;
+            }
+
+            .fuelDelivery__contentLeft-inputSlider {
+                height: 1px;
+            }
+
+            &-fuelType,
+            &-fuelVolume {
+                border: 1px solid #D4D4D4;
+                background-color: #FFFFFF;
+                height: 46px;
+                width: 409px;
+                margin-top: 8px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-left: 15px;
+                padding-right: 20px;
+            }
         }
 
         .fuelDelivery__contentRight {
@@ -588,7 +610,6 @@ body {
             margin: 0px;
         }
 
-
         span {
             font-size: 16px;
             font-weight: 400;
@@ -599,16 +620,21 @@ body {
         }
 
         div {
-            border: 1px solid red;
+            a {
+                font-size: 13px;
+                font-weight: 600;
+                line-height: 16px;
+                text-decoration: none;
+                color: $blue;
+                display: inline-block;
+                margin-top: 40px;
+            }
         }
+    }
 
-        a {
-            font-size: 13px;
-            font-weight: 600;
-            line-height: 16px;
-            text-decoration: none;
-            color: $blue;
-        }
+    &-cardLink {
+        display: inline-block;
+        margin-top: 37px;
     }
 
     &-readAll {

@@ -176,13 +176,22 @@
                 <div class="fuelDelivery__contentLeft">
                     <div>
                         <div class="fuelDelivery__contentLeft-label"><label for="">Вид топлива</label></div>
-                        <input type="text">
+                        <div class="fuelDelivery__contentLeft-fuelType">
+                            <div>ДТ</div>
+                            <div>
+                                <img src="./assets/images/arrow.svg" alt="">
+                            </div>
+                        </div>
                     </div>
                     <div>
                         <div class="fuelDelivery__contentLeft-label">
                             <label for="">Объем топлива</label>
                         </div>
-                        <input type="text">
+                        <div class="fuelDelivery__contentLeft-fuelVolume" id="input"></div>
+                        <div class="fuelDelivery__contentLeft-slidecontainer">
+                            <input type="range" min="50" max="2000" value="1000"
+                                class="fuelDelivery__contentLeft-inputSlider" id="slider">
+                        </div>
                     </div>
                     <div>
                         <div class="fuelDelivery__contentLeft-label">
@@ -383,7 +392,7 @@
                     <span>Velit, lectus sit urna tincidunt augue. Cursus vulputate pellentesque faucibus euismod. Diam
                         pharetra, non, ut integer dui feugiat porttitor at. Non, dignissim enim viverra fringilla sit.
                         Etiam justo a dignissim sociis vitae, nisi, justo, feugiat.</span>
-                    <div><a href="">Подробнее</a></div>
+                    <div class="main__reviews-cardLink"><a href="">Подробнее</a></div>
                 </div>
                 <div class="main__reviews-card">
                     <p>Зеленов Евгений</p>
@@ -444,6 +453,17 @@
             <div>Политика конфиденциальности</div>
         </div>
     </footer>
+
+    <script>
+
+        let slider = document.getElementById("slider");
+        var input = document.getElementById("input");
+        input.innerHTML = slider.value;
+
+        slider.oninput = function () {
+            input.innerHTML = this.value;
+        } 
+    </script>
 </body>
 
 </html>
