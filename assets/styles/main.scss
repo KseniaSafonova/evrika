@@ -692,4 +692,67 @@ body {
 .footer {
     height: 308px;
 
+    &__topBlock {
+        height: 280px;
+        display: flex;
+        background-color: #F9F9F9;
+
+        &-logo {
+            margin-left: 160px;
+            padding-top: 50px;
+
+            div {
+                margin-top: 20px;
+                color: gray;
+            }
+        }
+
+        &-nav {
+            display: flex;
+            margin-left: 150px;
+            margin-top: 55px;
+        }
+
+        &-navBlock {
+            margin-left: 100px;
+
+            a {
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 20px;
+                text-decoration: none;
+                color: black;
+            }
+
+        }
+
+        &-contacts {
+            margin-left: 200px;
+            margin-top: 55px;
+
+            div {
+                color: $blue;
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            div:first-child {
+                font-size: 15px;
+                line-height: 18px;
+                padding-left: 60px;
+                color: black;
+            }
+        }
+    }
+
+    &__bottomBlock {
+        height: 80px;
+
+        display: flex;
+        align-items: center;
+
+        div {
+            margin-left: 160px;
+        }
+    }
 }
